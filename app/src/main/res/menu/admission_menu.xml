@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nightowltechnology.asimyaz.nileconnect.AdmissionActivity">
+    <item
+        android:id="@+id/action_apply"
+        android:icon="@drawable/applynowicon"
+        android:title="Apply for admission now"
+        app:showAsAction="always"
+        android:orderInCategory="0"/>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nile_accent_background"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context="com.nightowltechnology.asimyaz.nileconnect.AppInfo">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Nile University of Nigeria"
+        />
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+    android:text="Version number: v6.0.0"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="2015/2017"
+        android:gravity="bottom" />
+</LinearLayout>

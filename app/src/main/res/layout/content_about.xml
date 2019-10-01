@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nightowltechnology.asimyaz.nileconnect.AboutActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about1"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/p1"
+        android:padding="5dp"
+        android:textSize="@dimen/vc_speech"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about2"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:id="@+id/p2"
+        android:textSize="@dimen/vc_speech"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about3"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:id="@+id/p3"
+        android:textSize="@dimen/vc_speech"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about4"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/p4"
+        android:padding="5dp"
+        android:textSize="@dimen/vc_speech"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about5"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:id="@+id/p5"
+        android:padding="5dp"
+        android:textSize="@dimen/vc_speech"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about6"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:id="@+id/p6"
+        android:textSize="@dimen/vc_speech"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about7"
+        android:textStyle="bold"
+        android:id="@+id/p7"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:textSize="@dimen/vc_speech"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p8"
+        android:text="@string/about8"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:textSize="@dimen/vc_speech"/>
+</LinearLayout>
+</ScrollView>

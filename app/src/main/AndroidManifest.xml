@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nightowltechnology.asimyaz.nileconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".FireNile"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DiningActivity"
+            android:label="Menus"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DiningInfoActivity"
+            android:label="Menus"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.DiningActivity" />
+        </activity>
+        <activity
+            android:name=".CoursesActivity"
+            android:label="Courses"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DirectoryActivity"
+            android:label="Directory"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TimetableActivity"
+            android:label="TimeTable"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ContactusActivity"
+            android:label="@string/title_activity_contactus"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PartnersActivity"
+            android:label="@string/title_activity_partners"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ClubsActivity"
+            android:label="@string/title_activity_clubs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SchoolSiteActivity"
+            android:label="@string/title_activity_school_site"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".StudentInfoSys"
+            android:label="@string/title_activity_student_info_sys"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PhotosActivity"
+            android:label="@string/title_activity_photos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VideosActivity"
+            android:label="@string/title_activity_videos"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DownloadsActivity"
+            android:label="@string/title_activity_downloads"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SportsActivity"
+            android:label="@string/title_activity_sports"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MoodleActivity"
+            android:label="@string/title_activity_moodle"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MagazinesActivity"
+            android:label="@string/title_activity_magazines"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EmergencyActivity"
+            android:label="@string/title_activity_emergency"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdmissionActivity"
+            android:label="@string/title_activity_admission"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CanteenActivity"
+            android:label="@string/title_activity_canteen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:label="@string/title_activity_webview"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CreditsActivity"
+            android:label="@string/title_activity_credits"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Nightowl"
+            android:label="@string/title_activity_nightowl"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AppInfo"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MyImageViewerActivity"
+            android:label="Favourite"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MagazineWebActivity"
+            android:label="@string/title_activity_magazine_web"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MagazinesActivity" />
+        </activity>
+        <activity
+            android:name=".PhotosWebActivity"
+            android:label="@string/title_activity_photos"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity android:name=".Zooming" />
+        <activity android:name=".TimetableInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity android:name=".DownloadInfoAcitivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity android:name=".MagazineInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SocialActivity"
+            android:label="@string/title_activity_soical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Announcements"
+            android:label="@string/title_activity_annoucement"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_color"
+                android:resource="@color/colorAccent" />
+        </service>
+
+        <activity
+            android:name=".FacebookActivity"
+            android:label="@string/title_activity_facebook"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TwitterActivity"
+            android:label="@string/title_activity_twitter"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SRCActivity"
+            android:label="@string/title_activity_src"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nightowltechnology.asimyaz.nileconnect.MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="night_owl_1">
+			Designed and developed by Asim Balarabe Yazid in partial fulfilment of the requirements for the Bachelors Degree in Computer Science, Class of 2016.</string>
+
+
+
+    <string name="night_owl_4">
+        For any complains,suggestions or enquiries regarding Nile Connect App please click on the button below:
+    </string>
+
+    <string name="contact_button">Call developer now</string>
+
+
+
+</resources>

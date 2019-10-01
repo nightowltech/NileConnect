@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        tools:showIn="@layout/activity_canteen"
+        android:background="@color/plain_white"
+        tools:context="com.nightowltechnology.asimyaz.nileconnect.CanteenActivity"
+
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item1"
+                    android:layout_weight="1"
+                    android:layout_column="1"
+                    android:id="@+id/canteen_product"
+                    android:textSize="@dimen/canteen_items_text_size"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:id="@+id/canteen_price"
+                    android:layout_column="2"
+                    android:textSize="@dimen/canteen_price_text_size"/>
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.CardView>

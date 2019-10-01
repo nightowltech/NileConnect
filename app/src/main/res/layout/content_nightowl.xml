@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#c9bdbd"
+    android:layout_height="match_parent"
+     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nightowltechnology.asimyaz.nileconnect.Nightowl"
+    tools:showIn="@layout/activity_nightowl">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textColor="@color/my_textcolor"
+            android:textAlignment="center"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/welcome" />-->
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="172dp" android:layout_height="172dp"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:background="@drawable/nc" android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_color="#FFF" />
+
+       <!-- <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/nightowl"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp"/>-->
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="@string/night_owl_1"
+            android:textAlignment="center"
+            android:textColor="@color/my_textcolor" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/nightowl_web"
+            android:textColor="@color/my_textcolor"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="5dp"
+            android:shadowRadius="5"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="Visit Our Website"
+            />
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/nightowl_contact"
+            android:textColor="@color/my_textcolor"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="5dp"
+            android:shadowRadius="5"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="Contact Us"
+            />
+        <Button
+
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/nightowl_fb"
+            android:textColor="@color/my_textcolor"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="5dp"
+            android:shadowRadius="5"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="Facebook"
+            />
+
+
+        <!-- <Button
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:id="@+id/staff"
+             android:text="Staff"
+             />-->
+        <Button
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/nightowl_insta"
+            android:textColor="@color/my_textcolor"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="5dp"
+            android:shadowRadius="5"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="Instagram"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/nightowl_twitter"
+            android:textColor="@color/my_textcolor"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="5dp"
+            android:shadowRadius="5"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="Twitter"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/nightowl_apps"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/my_textcolor"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="5dp"
+            android:shadowRadius="5"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="More Apps by developer"
+            />
+        <!--<Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/exit"
+            android:text="Exit"
+            />-->
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

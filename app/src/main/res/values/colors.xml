@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#12a1e5</color>
+<color name="colorPrimaryDark">#0c80b7</color>
+<color name="colorAccent">#12a1e5</color>
+
+
+<color name="NileGreen">#76b727</color>
+<color name="Nightowl">#686868</color>
+<color name="NileBlueTab">#0c80b7</color>
+<color name="NileAccentLight">#d7f5c1</color>
+<color name="NileAccentDark">#d7f5c1</color>
+<color name="plain_white">#ffffff</color>
+<color name="about_image">#0089d9</color>
+<color name="cafeteria_image">#8a5231</color>
+<color name="calendar_image">#D7D700</color>
+<color name="sports_image">#4a8c08</color>
+<color name="Nightowl_main_a">#403230</color>
+<color name="my_textcolor">#FFF</color>
+</resources>

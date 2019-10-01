@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "378039164095",
+    "firebase_url": "https://nile-connect.firebaseio.com",
+    "project_id": "nile-connect",
+    "storage_bucket": "nile-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378039164095:android:f4ca4ca28bed6dc1",
+        "android_client_info": {
+          "package_name": "com.nightowltechnology.asimyaz.nileconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378039164095-f2ifu1cq7u5urc6n0ch2kfud8mi6amv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nightowltechnology.asimyaz.nileconnect",
+            "certificate_hash": "8e5a68b7872717d14d646e39585a3f5c24a805ff"
+          }
+        },
+        {
+          "client_id": "378039164095-u4n2gt5g6g8ml6ldbl5t3uf6l4h59uu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDondW7Q8_tdez5pGSPOLqFzSEihkFdsJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378039164095-u4n2gt5g6g8ml6ldbl5t3uf6l4h59uu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

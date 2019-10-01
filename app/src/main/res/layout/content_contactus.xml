@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    tools:context="com.nightowltechnology.asimyaz.nileconnect.ContactusActivity"
+    android:background="@drawable/nile_accent_background"
+    >
+
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Main Campus"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="8dp"
+            />
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8pt"   >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Address"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/address"
+                android:textIsSelectable="true"
+                android:textAlignment="center"
+                android:id="@+id/c_address"
+                android:paddingLeft="8dp"
+                android:layout_column="2"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8pt"   >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mobile"
+                android:id="@+id/textView4"
+                android:layout_column="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/contacts1"
+                android:textIsSelectable="true"
+                android:id="@+id/c_phone"
+                android:layout_column="2"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8pt"   >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="email address"
+                android:id="@+id/textView5"
+                android:layout_column="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/email1"
+                android:textIsSelectable="true"
+                android:id="@+id/c_email"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8pt"   >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Opening Hours"
+                android:layout_column="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/opening_hours1"
+                android:textIsSelectable="true"
+                android:id="@+id/c_time"
+                android:layout_column="2"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

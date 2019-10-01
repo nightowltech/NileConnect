@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="post_graduates">POSTGRADUATE STUDIES</string>
+    <string name="under_graduates">UNDERGRADUATE STUDIES</string>
+
+    <string name="faculty_fmss_header">FACULTY OF MANAGEMENT AND SOCIAL SCIENCE</string>
+    <string name="faculty_fnas_header">FACULTY OF NATURAL AND APPLIED SCIENCES</string>
+    <string name="faculty_eng_header">FACULTY OF ENGINEERING</string>
+    <string name="faculty_law_header">FACULTY OF LAW</string>
+
+    <string name="post_dep_bus_header">Department of Business Administration</string>
+    <string name="post_dep_bus1">a). Management, PGD.</string>
+    <string name="post_dep_bus2">b). Management, M Sc.</string>
+    <string name="post_dep_bus3">c). Executive Master of Bussiness Administration (MBA)</string>
+
+
+    <string name="post_dep_econs_header">Department of Economics</string>
+    <string name="post_dep_econs1">a).Economics M Sc.</string>
+
+
+    <string name="post_dep_pol_header">Department of Political Science and International Relations</string>
+    <string name="post_dep_pol_1">a). International Relations and Diplomacy, PGD.</string>
+    <string name="post_dep_pol_2">b). International Relations and Diplomacy, M Sc.</string>
+    <string name="post_dep_pol_3">c). Conflict, Peace and Stategic Studies, PGD.</string>
+    <string name="post_dep_pol_4">d). Conflict, Peace and Stragtegic Studies, M Sc.</string>
+
+
+
+    <string name="post_dep_chem_header">Department of Chemistry</string>
+    <string name="post_dep_chem1">a). Analytical chemistry, Msc.</string>
+    <string name="post_dep_chem2">b). Polymer Chemistry, Msc.</string>
+    <string name="post_dep_chem3">c). Industrial Chemistry (Petroluem Chemistry), M Sc.</string>
+
+
+
+    <string name="post_dep_com_header">Department of Computer Science</string>
+    <string name="post_dep_com1">a). Computer Science M Sc.</string>
+
+
+
+    <string name="post_dep_eng_header">Department of Electrical and Electronics Engineering</string>
+    <string name="post_dep_eng1">a).Electrical and Electronics Engineering, M Eng.</string>
+
+
+    <string name="under_dep_law_int">a). Public and Internal law.</string>
+    <string name="under_dep_law_isl">b). Private and Islamic law.</string>
+
+
+
+    <string name="under_dep_fmss_bus">a). B.Sc Business Administration.</string>
+    <string name="under_dep_fmss_econs">b) .B.Sc Economics.</string>
+    <string name="under_dep_fmss_pol">c). B.SC Political Science and International relations.</string>
+    <string name="under_dep_fmss_eng">d). B.Sc English Studies.</string>
+
+
+    <string name="under_dep_fnas_bio">a).B.Sc in Biological Science.</string>
+    <string name="under_dep_fnas_chem">b). B.Sc in Chemical Science.</string>
+    <string name="under_dep_fnas_com">c). B.Sc in Computer Science.</string>
+    <string name="under_dep_fnas_mat">d). B.Sc in Mathematics.</string>
+    <string name="under_dep_fnas_phy">e). B.Sc Physics.</string>
+    <string name="under_dep_fnas_stat">f). B.Sc Statistics.</string>
+
+
+    <string name="under_dep_eng_chem">a). B.Eng. Chemical.</string>
+    <string name="under_dep_eng_civil">b). B.Eng. Civil.</string>
+    <string name="under_dep_eng_elect">c). B.Eng. Electrical and Electronics.</string>
+    <string name="under_dep_eng_pet">d). B.Eng. Petroluem and Gas.</string>
+
+
+
+
+
+
+</resources>

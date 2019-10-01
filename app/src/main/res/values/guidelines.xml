@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide1">GUIDELINES</string>
+    <string name="guide2">Nigerian candidates wishing to apply should possess a minimum of five credit passes in the relevant subjects (including English and Mathematics) for the course of their choice at not more than two sittings in SSCE or its equivalent.</string>
+    <string name="guide3">Candidates applying to NTNU are required to sit for the current year"\u0027"s Joint Admission and Matriculation Examination (JAMB) and attain the prescribed cut-off mark. They are also expected to complete the NTNU application form. return to the admission office either by person,email or by courier.</string>
+    <string name="guide4">Application forms can be obtained online www.ntnu.edu.ng ,at the "Downloads" module in this mobile app,at the school office or any of the Nigerian Turkish International Colleges  offices nationwide.</string>
+    <string name="guide5">Candidates who did not choose NTNU as either first or second choice during registration for JAMB can also apply to NTNU by obtaining or filling the NTNU application form.
+</string>
+    <string name="guide6">Direct entry and transfer candidates can also apply.</string>
+    <string name="guide7">Direct entry and transfer candidates can also apply.</string>
+
+    <string name="guide8">Nigerian Turkish International Colleges:
+</string>
+
+    <string name="state1">Abuja</string>
+
+    <string name="state2">Kano</string>
+
+    <string name="state3">Kaduna</string>
+
+    <string name="state4">Lagos</string>
+
+    <string name="state5">Ogun</string>
+
+
+
+    <string name="address1">Ahamdu Bello Way by Kashim Ibrahim way WUSE II
+		08060612789</string>
+    <string name="address2">Hadejia road by ring road, Yankaba. 07034988405</string>
+    <string name="address3">Km 9 Kaduna-Zaria road 08037687860</string>
+    <string name="address4">4a Agbaku st. off Opebi road Ikeja. 01 774 0545</string>
+    <string name="address5">OGD drive, Lagos-Ibadan Expressway, Isheri. 01740915</string>
+</resources>

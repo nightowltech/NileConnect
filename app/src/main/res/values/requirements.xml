@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="req_header">REQUIRED DOCUMENTS</string>
+    <string name="req1">a) Completed and signed Application form</string>
+    <string name="req2">b) Copy of official Senior Secondary School Transcript</string>
+    <string name="req3">c) Copy of Official Senior Secondary Certificate</string>
+    <string name="req4">d) Copies of Official Exam result</string>
+    <string name="req5">e) Guarantor"\u0027"s letter of attestation of financial support</string>
+    <string name="req6">g)Letter of Recommendation from secondary school counselor/Principal.</string>
+    <string name="req7">h) Four passport photographs</string>
+    <string name="req8">i) Birth certificate</string>
+    <string name="req9">j) Local Government indigen certificate</string>
+
+    <string name="req_sub">Documents for Transfer candidates</string>
+
+    <string name="req10">k) University Transcript</string>
+    <string name="req11">l) Admission Letter from university</string>
+    <string name="req12">m) JAMB official Admission Letter</string>
+    <string name="req13">n) JAMB result</string>
+
+</resources>
